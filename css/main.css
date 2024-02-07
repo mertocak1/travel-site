@@ -1,0 +1,35 @@
+/* Hero Section Styling */
+.hero-section{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 40px 0px 50px 0px;
+  background-color: #FEFAF5;
+}
+
+.hero-section__desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: center;
+  width: 300px;
+  color: #335576;
+}
+
+.hero-section_img-box{
+  width: 500px;
+}
+
+.hero-section__img{
+  width: 500px;
+}
+
+.hero-section__button{
+  background-color: #DB7A4E;
+  color: white;
+  border: none;
+  width: 50%;
+  height: 12%;
+  border-radius: 150px;
+}
+/* Hero Section Styling Ends Here */
