@@ -1,6 +1,8 @@
-html{
+/* Element Styling */
+body{
   font-family: Verdana;
 }
+/* Element Styling Ends Here */
 
 /* Nav Bar Styling */
 .nav-bar{
@@ -40,4 +42,84 @@ html{
   text-decoration-thickness: 4px;
   text-underline-offset: 12px;
 }
-/* Nav Bar Styling Ends */
+/* Nav Bar Styling Ends Here */
+/* Footer Styling */
+.footer-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #FEFAF5;
+  color: #335576;
+}
+
+.footer-section__headers{
+  margin: 0px;
+}
+
+.footer-section__sub-headers{
+  color: #DB7A4E;
+  margin-bottom: 10px;
+}
+
+.footer-section__text-size{
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-section__contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section__email--link{
+  text-decoration: none;
+  color: #335576;
+}
+
+.footer-section__hours{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer-section__hours-content{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+/*  */
+.footer-section__social{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.footer-section__social-header{
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-section__social-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section__social-item{
+  width: 90px;
+}
+
+.footer-section__social-img{
+  width: 40px;
+}
+
+.footer-section__social-img--facebook{
+  width: 20px;
+}
+
+
+/* Footer Styling Ends Here */
