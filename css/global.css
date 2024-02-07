@@ -1,6 +1,8 @@
 /* Element Styling */
 body{
   font-family: Verdana;
+  margin: 0px;
+  padding: 0px;
 }
 /* Element Styling Ends Here */
 
@@ -43,6 +45,7 @@ body{
   text-underline-offset: 12px;
 }
 /* Nav Bar Styling Ends Here */
+
 /* Footer Styling */
 .footer-section{
   display: flex;
@@ -53,6 +56,11 @@ body{
   padding-bottom: 30px;
   background-color: #FEFAF5;
   color: #335576;
+}
+
+.footer-section__contact{
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-section__headers{
@@ -70,10 +78,7 @@ body{
   font-weight: 500;
 }
 
-.footer-section__contact{
-  display: flex;
-  flex-direction: column;
-}
+
 
 .footer-section__email--link{
   text-decoration: none;
@@ -95,31 +100,36 @@ body{
 .footer-section__social{
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 175px;
 }
 
 .footer-section__social-header{
-  width: 100%;
-  margin: 10px;
   margin-bottom: 30px;
 }
 
 .footer-section__social-content{
   display: flex;
-  justify-content: space-between;
+  align-items: flex-end;
+  gap: 3vh;
 }
 
 .footer-section__social-item{
-  width: 90px;
+  display: flex;
+  width: 40px;
+  
 }
 
 .footer-section__social-img{
-  width: 40px;
+  width: 35px;
 }
 
 .footer-section__social-img--facebook{
-  width: 20px;
+  width: 18px;
+  margin-left: 0.8vh;
 }
 
+.footer-section__twitter--link{
+  height: 36px;
+}
 
 /* Footer Styling Ends Here */
