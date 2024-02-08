@@ -1,9 +1,14 @@
 /* Element Styling */
 html,body{
-  font-family: Verdana;
+  /* font-family: Verdana; */
   margin: 0px;
   padding: 0px;
   /* margin-top: 56px; */
+}
+
+* {
+  font-family: Verdana;
+  box-sizing: border-box;
 }
 /* Element Styling Ends Here */
 
@@ -20,6 +25,11 @@ html,body{
   margin-left: 80px;
   color: #335576;
   font-size: 21px;
+  
+}
+
+.nav-bar__header--decoration{
+  text-decoration: none;
 }
 
 .nav-bar__list-box{

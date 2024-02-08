@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 650px;
+  height: 730px;
   width: 100%;
   padding-bottom: 115px;
   background-image: url(../assets/images/hawaii.jpg);
@@ -16,7 +16,7 @@
 .trip-section__header{
   align-self: flex-start;
   font-weight: 700;
-  font-size: 68px;
+  font-size: 4.813rem;
   color: white;
   margin-left: 10%;
 }
