@@ -1,9 +1,7 @@
 /* Element Styling */
 html,body{
-  /* font-family: Verdana; */
   margin: 0px;
   padding: 0px;
-  /* margin-top: 56px; */
 }
 
 * {
@@ -24,7 +22,7 @@ html,body{
 .nav-bar__header{
   margin-left: 80px;
   color: #335576;
-  font-size: 21px;
+  font-size: 1.313rem;
   
 }
 
@@ -43,6 +41,7 @@ html,body{
   margin-right: 80px;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 1rem;
 }
 .nav-bar__list-item{
   display: flex;
@@ -69,8 +68,8 @@ html,body{
   height: 225px;
   background-color: #FEFAF5;
   color: #335576;
-  padding-left: 225px;
-  padding-right: 184px;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 .footer-section__contact{
